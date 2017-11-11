@@ -47,7 +47,6 @@ public class Vigilante extends Persona {
     public ArrayList<GregorianCalendar> generarCalendario(int dias){
     
         ArrayList diasTrabajo= new ArrayList();
-        Calendar fechaInicio = new GregorianCalendar(); // conseguir la fecha actual en formato gregorian calendar
         Calendar fecha=new GregorianCalendar(); //fecha que va a ser parte del ciclo
         
         
